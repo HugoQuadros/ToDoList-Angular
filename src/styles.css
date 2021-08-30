@@ -10,7 +10,7 @@ body {
 	margin: 0;
 	padding: 30px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	height: 100%;
 	background-color: #6a1b9a;
 	color: #FFF;
@@ -19,14 +19,6 @@ body {
 
 a, a:visited{
 	color:yellowgreen;
-}
-
-aside{
-	width: calc(100% - 430px);
-}
-
-aside p{
-	text-align: justify;
 }
 
 main {

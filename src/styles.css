@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 20px;
+}
+
+body {
+	margin: 0;
+	padding: 30px;
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+	background-color: #6a1b9a;
+	color: #FFF;
+	font-family: 'Roboto',sans-serif;
+}
+
+a, a:visited{
+	color:yellowgreen;
+}
+
+aside{
+	width: calc(100% - 430px);
+}
+
+aside p{
+	text-align: justify;
+}
+
+main {
+	background-color: #9c4dcc;
+	padding: 20px;
+	width: 400px;;
+}

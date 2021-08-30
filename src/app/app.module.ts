@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CaixaInputComponent } from './components/caixa-input/caixa-input.component';
 import { ListaComponent } from './components/lista/lista.component';
+import { TarefaComponent } from './components/tarefa/tarefa.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CaixaInputComponent,
-    ListaComponent
+    ListaComponent,
+    TarefaComponent
   ],
   imports: [
     BrowserModule,

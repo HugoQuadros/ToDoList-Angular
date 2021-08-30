@@ -1,15 +1,5 @@
 <table id="table">
-    <tr *ngFor="let tarefa of tarefas">
-        <td>
-            <input type="checkbox">
-        </td>
-        <td>
-            {{tarefa.descricao}}
-        </td>
-        <td>
-            <i class="material-icons">
-                delete
-            </i>
-        </td>
-    </tr>
+
+    <app-tarefa *ngFor="let tarefa of tarefas" [texto] = "tarefa"></app-tarefa>
+
 </table>

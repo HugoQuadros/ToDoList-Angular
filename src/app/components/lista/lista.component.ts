@@ -8,7 +8,7 @@ import { Prioridade, Tarefa } from 'src/app/models/Tarefa';
 })
 export class ListaComponent implements OnInit {
 
-  @Input() tarefas: Tarefa[] = [
+  tarefas: Tarefa[] = [
     {
       descricao: "Lavar Louça",
       prioridade: Prioridade.media
